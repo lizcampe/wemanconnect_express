@@ -30,11 +30,11 @@ app.patch('/partyhard', (req, res)=> {
 	res.status(401). send ("errorazo 401")
 });
 
-app.get('/casita', (req,res)={ 
+app.get('/casita', (req,res)=>{ 
 	res.send ("Aqui va todo lo que se usará");
 	});
 
-app.get('/casita', (req,res)={ 
+app.get('/casita', (req,res)=>{ 
 	res.send ("no hay lugar como el hogar");
 	});
 
