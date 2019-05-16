@@ -27,7 +27,7 @@ app.post('/trabajo', (req, res)=> {
 })
 
 app.patch('/partyhard', (req, res)=> {
-	res.status(401). send ("error 401")
+	res.status(401). send ("errorazo 401")
 });
 
 app.listen(port, () => console.log ('el servidor esta corriendo'));	
