@@ -53,6 +53,7 @@ app.get('/casita', (req,res)=>{
 
 
 app.get('/books', (req, res) => {
+console.log( req.cookies);
 res.status(200).send({data:books});
 	})
 
